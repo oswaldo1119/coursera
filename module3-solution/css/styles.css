@@ -34,15 +34,31 @@ body {
 
 }
 
-.section-chicken{
+/*  END HEADER */
+
+
+/* SECCION HOME */
+#menu{
+  margin-right: -15px;
+  margin-left: -15px;
+}
+#menu > div > section{
 	background-color: #FCFFE7;
-  margin: 20px;
+  margin: 15px auto;
   padding: 25px;
-	height: 1000px;
+  height: 700px;
 	overflow: auto;
 }
 
-.section-chicken h2{
+#menu > div > section > h3{
   font-size: 1.4em;
   font-weight: bold;
+}
+
+
+
+@media (max-width: 767px) {
+  #menu > div > section{
+    margin: 15px 20px;
+  }
 }
